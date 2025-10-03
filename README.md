@@ -1,5 +1,5 @@
 # Ex. No: 9 - Packet Tracer: Subnet an IPv4 Network
-# Date: ___________
+# Date: 03-10-2025
 ________________________________________ <br>
 # Objective
 Design, configure, and verify an IPv4 subnetting scheme in Cisco Packet Tracer.<br>
@@ -21,6 +21,9 @@ ________________________________________
 ________________________________________<br>
 # Network Topology Diagram
 (Insert your Packet Tracer screenshot showing CustomerRouter → LAN-A Switch → PC-A, CustomerRouter → LAN-B Switch → PC-B, and ISP side with Router, Switch, Workstation, Server, and Serial link.)<br>
+
+<img width="1919" height="1015" alt="image" src="https://github.com/user-attachments/assets/821fffb7-517e-4aef-b527-f48c3986fa5d" />
+
 ________________________________________<br>
 # Addressing Table
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -94,8 +97,23 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on CustomerRouter<br>
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/19701286-53cb-4299-ba8c-180b9fd80c39" />
+
 •	show ip route<br>
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/c3b9e367-3d01-421b-baeb-aa3249b89e9d" />
+
 •	Successful pings: PC-A → PC-B, PC-A → ISP Server<br>
+
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/50e90e6e-c0b8-4515-af1b-81ab5905fc6f" />
+
+<img width="1916" height="1016" alt="image" src="https://github.com/user-attachments/assets/fb60be4d-270a-42c5-a4a8-8dc7b8c8f293" />
+
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/f3c6c3ba-8893-48df-a11a-d5580ca3eab8" />
+
+
+
 ________________________________________<br>
 # Result
 The IPv4 subnetting scheme was successfully designed and implemented. Router, switches, and PCs were configured with correct addressing. Connectivity within LANs, across subnets, and to ISP devices was verified using ping and show commands.<br>
